@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "./Logo";
 
 // Initial packing items (starting data)
 const initialItems = [
@@ -6,10 +7,6 @@ const initialItems = [
   { id: 2, description: "Pants", quantity: 2, packed: false },
 ];
 
-// ------------ Logo Component ------------
-function Logo() {
-  return <h1>My Travel List</h1>;
-}
 
 // ------------ Form Component ------------
 function Form({ onAddItem }) {
